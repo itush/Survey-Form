@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+  background:linear-gradient(45deg, lightgreen, darkgreen 50%);
+  color: whitesmoke;
+  text-align: center;
+}
+h1, p{
+  padding:10px;
+}
+
+#survey-form{
+  font-size: 22px;
+  text-align: center;
+}
+legend{font-weight: bold;}
+#name-label, #email-label, #number-label {font-weight: bold;} 
+
+hr{width:60%;margin:auto;}
+.srvform{
+  padding: 2% 2%;
+  background: #5ca167;
+  color: #111712;
+  margin: 2.5% 20%;
+  border-radius: 10px;
+}
+input{ margin:2% 0;}
+
+input:focus {
+  background-color: gray;
+}
+
+#name, #email, #number{
+  width: 50%;
+  outline: none;
+  padding: 10px;
+  border-radius:10px;
+  box-shadow: 0 0 10px #719ECE;
+}
+#dropdown{border-radius:10px; width: 54%;padding: 10px; margin-top:2%;}
+textarea{border-radius:10px; margin-top:2%; outline: none;}
+
+#submit{
+  margin:2% 0;
+  padding:10px;
+  border: none;
+  border-radius: 10px;
+  background: darkgreen;
+  color: whitesmoke;
+  font-size: 22px;
+}
+footer{
+  background: white;
+  color: black;
+  font-size: 10px;
+}
+@media screen and (max-width: 600px) {
+  textarea{max-width: 100%;}
+  #submit{width: 50%;}
+  h1{font-size:22px;}
+  p{font-size:12px;}
+}
